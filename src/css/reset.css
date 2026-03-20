@@ -1,20 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    border: none;
-    outline: none;
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
 }
 
-ul{
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid #0066ff;=
+    outline-offset: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--colors-black);
+}
+
+ul {
     list-style: none;
 }
 
-img{
+img {
     max-width: 100%;
 }
