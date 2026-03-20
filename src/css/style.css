@@ -1,0 +1,137 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    color: var(--colors-white, #FFF);
+    background: url('../images/bg-desktop.svg') top center no-repeat var(--colors-purple-700, #684BB1);
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+
+}
+
+.header,
+.main,
+.footer {
+    max-width: 1272px;
+    width: 100%;
+
+}
+
+.header {
+    margin-bottom: 104px;
+    
+}
+
+.header img {
+    width: 220px;
+}
+
+.main .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-700, 56px);
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-500, 40px);
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-300, 24px);
+    max-width: 520px;
+    width: 100%;
+}
+
+.description h1 {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 125%;
+}
+
+.description p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.btn-primary {
+    display: flex;
+    width: 200px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-100, 8px);
+
+    border-radius: 28px;
+    background: var(--colors-white, #FFF);
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+
+    color: var(--colors-purple-700, #684BB1);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    transition: 0.3s ease;
+
+}
+
+.btn-primary:hover {
+    background: var(--colors-magenta-400, #E880E8);
+    color: var(--colors-white, #FFF);
+
+}
+
+/* -------------------------------------------- */
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: var(--spacing-300, 24px);
+}
+
+.footer nav ul {
+    display: flex;
+    gap: var(--spacing-200, 16px);
+}
+
+.footer nav ul li {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    border: 1.176px solid var(--colors-white, #FFF);
+}
+
+.footer nav ul li:hover,
+.footer nav ul li:hover .fab {
+    border-color: var(--colors-pink-400, #FF52C1);
+    color: var(--colors-pink-400, #FF52C1);
+    cursor: pointer;
+}
+
+
+
+.fab {
+    font-size: 1.9rem;
+    color: var(--colors-white, #FFF);
+
+}
