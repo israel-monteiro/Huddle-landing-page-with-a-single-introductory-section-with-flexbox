@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 102.4rem) {
     body {
         background: url('../images/bg-mobile.svg') top center no-repeat var(--colors-purple-700, #684BB1);
         background-size: contain;
@@ -7,7 +7,7 @@
     .header,
     .main,
     .footer {
-        max-width: 608px;
+        max-width: 60.8rem;
         width: 100%;
 
     }
@@ -43,16 +43,16 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 42.5rem) {
 
     body {
-        padding: 40px 0;
+        padding: 4rem 0;
     }
 
     .header,
     .main,
     .footer {
-        max-width: 304px;
+        max-width: 30.4rem;
         width: 100%;
 
     }

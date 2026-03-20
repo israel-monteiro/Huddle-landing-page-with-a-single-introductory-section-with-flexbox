@@ -21,7 +21,7 @@ body {
 .header,
 .main,
 .footer {
-    max-width: 1272px;
+    max-width: 127.2rem;
     width: 100%;
 
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .footer li:hover,
-.footer li:hover .fab
+.footer li:hover .fab,
 .footer li:focus-visible  {
     border-color: var(--colors-pink-400, #FF52C1);
     color: var(--colors-pink-400, #FF52C1);
